@@ -1,0 +1,51 @@
+body{
+    font-family: Garamond, "Times New Roman", Serif;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(0, 0, 0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border:2px solid black;
+} 
+
+
+
+#uilistItem{
+    text-align: center;
+    color: white;
+}
+hr{
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 0;
+    margin-bottom: 0; 
+}
+
+.headMenu{
+    margin-top: 10px;
+    font-size: 1.8em;
+    margin-bottom: 40px;
+}
+
+
+.chickenbox, .beefbox, .sushibox{
+    background-color: grey;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.chickenbox h2, .beefbox h2, .sushibox h2{
+    font-size: 1.2em;
+}
+/*
+@media (min-width: 768px){
+.chickenbox, .beefbox, .sushibox{
+    
+    width: 50%;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: blue;
+}
+}*/
